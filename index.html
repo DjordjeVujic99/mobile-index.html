@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sr">
+<meta charset="UTF-8">
+<head>
+<title>RESPONSIVE</title>
+<meta name="viewport" content="width-device-width, initial-scale-1.0">
+<style>
+body{
+width:100%
+height:100%
+
+}
+#navi{
+width:30%;
+height:900px;
+background:red;
+float:left;
+}
+#glavni{
+width:70%;
+height:900px;
+background:brown;
+float:left;
+}
+.ko{
+width:90%;
+margin-left:auto;
+margin-right:auto;
+}
+#naslov{
+text-align:center;
+color:red;
+font-size:36px;
+font-style:bold;
+}
+.kolona{
+width:33.333%;
+box-sizing:border-box;
+float:left;
+padding:8px;
+}
+.row{
+height:144px;
+margin: 0 auto;
+width:90%
+}
+.row::after{
+content:'';
+display:block;
+clear:left;
+}
+.celija{
+background:red;
+height:144px;
+}
+@media screen and (max-width:1024px){
+.kolona{
+width:33.33%;
+}
+}
+@media screen and (max-width:760px){
+.kolona{
+width:50%;
+}
+}
+@media screen and (max-width:414px){
+.kolona{
+width:100%;
+}
+}
+</style>
+</head>
+<body>
+<div class="ko">
+<div id="navi">
+</div>
+<div id="glavni">
+<p id="naslov">PREGLED NAJNOVIJIH VIJESTI</p>
+<div class="row">
+<div class="kolona">
+<div class="celija">
+</div> </div> 
+<div class="kolona">
+<div class="celija">
+</div> </div>
+<div class="kolona">
+<div class="celija">
+</div> </div> </div>
+<div class="row">
+<div class="kolona">
+<div class="celija">
+</div> </div>
+<div class="kolona">
+<div class="celija">
+</div> </div>
+<div class="kolona">
+<div class="celija">
+</div> </div></div>
+</div> 
+</div> 
+
+
+</body>
+</html>
